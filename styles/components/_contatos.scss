@@ -31,7 +31,7 @@
         border-radius: 3rem;
 
         .titulo{
-            @include mixins.ff-fs-cl(variaveis.$ft-titulos, 1.9rem, variaveis.$cor-secundaria)
+            @include mixins.ff-fs-cl(variaveis.$ft-titulos, 1.9rem, variaveis.$cor-secundaria);
         }
 
         .infos{
